@@ -1,0 +1,33 @@
+.about-container{
+
+}
+
+.about-child-container{
+    margin-top: 50px;
+}
+
+.about-name{
+    text-align: center;
+}
+
+.about-details{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid red;
+    width: 90%;
+    margin: auto;
+    padding: 50px;
+}
+.shaped{
+    width: 50%;
+}
+.shaped img{
+    width: 70%;
+    height: 60%;
+}
+.details{
+    border: 1px solid red;
+    text-align: left;
+}

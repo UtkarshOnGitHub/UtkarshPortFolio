@@ -1,10 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import MiddleSection from './MiddleSection/MiddleSection';
+import Home from './PortfolioContent/Home/Home';
+
+
+
 
 function App() {
   return (
     <div className="App">
-      <h1>Welcome</h1>
+        <Home/>
+        <MiddleSection/>
     </div>
   );
 }
