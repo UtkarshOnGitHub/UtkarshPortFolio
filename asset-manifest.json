@@ -1,12 +1,10 @@
 {
   "files": {
-    "main.css": "/UtkarshPortFolio/static/css/main.c1c7416a.css",
-    "main.js": "/UtkarshPortFolio/static/js/main.f5d7dcc2.js",
+    "main.css": "/UtkarshPortFolio/static/css/main.786b2589.css",
+    "main.js": "/UtkarshPortFolio/static/js/main.fd615601.js",
     "static/js/787.128fc6e9.chunk.js": "/UtkarshPortFolio/static/js/787.128fc6e9.chunk.js",
-    "static/media/3.jpg": "/UtkarshPortFolio/static/media/3.e2b798f4286e483c5b92.jpg",
     "static/media/2.jpg": "/UtkarshPortFolio/static/media/2.e853ca83446053706f14.jpg",
-    "static/media/profilephoto.jpg": "/UtkarshPortFolio/static/media/profilephoto.92ae3b886481b3cf7b1b.jpg",
-    "static/media/1.jpg": "/UtkarshPortFolio/static/media/1.4f483043c121a0e95020.jpg",
+    "static/media/profilephoto.jpg": "/UtkarshPortFolio/static/media/profilephoto.3c02f5f1a9c832d05929.jpg",
     "static/media/Poppins-Thin.ttf": "/UtkarshPortFolio/static/media/Poppins-Thin.a61eaf4c2e4d44d6db6a.ttf",
     "static/media/Poppins-Light.ttf": "/UtkarshPortFolio/static/media/Poppins-Light.f41b63c0bb0963ace821.ttf",
     "static/media/Poppins-Regular.ttf": "/UtkarshPortFolio/static/media/Poppins-Regular.8081832fc5cfbf634aa6.ttf",
@@ -14,13 +12,14 @@
     "static/media/Poppins-SemiBold.ttf": "/UtkarshPortFolio/static/media/Poppins-SemiBold.cce5625b56ec678e4202.ttf",
     "static/media/Poppins-Bold.ttf": "/UtkarshPortFolio/static/media/Poppins-Bold.404e299be26d78e66794.ttf",
     "static/media/Poppins-ExtraBold.ttf": "/UtkarshPortFolio/static/media/Poppins-ExtraBold.4ed78cd5d64af4efc3c7.ttf",
+    "static/media/comp.png": "/UtkarshPortFolio/static/media/comp.213ed759e68a26e060c9.png",
     "index.html": "/UtkarshPortFolio/index.html",
-    "main.c1c7416a.css.map": "/UtkarshPortFolio/static/css/main.c1c7416a.css.map",
-    "main.f5d7dcc2.js.map": "/UtkarshPortFolio/static/js/main.f5d7dcc2.js.map",
+    "main.786b2589.css.map": "/UtkarshPortFolio/static/css/main.786b2589.css.map",
+    "main.fd615601.js.map": "/UtkarshPortFolio/static/js/main.fd615601.js.map",
     "787.128fc6e9.chunk.js.map": "/UtkarshPortFolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1c7416a.css",
-    "static/js/main.f5d7dcc2.js"
+    "static/css/main.786b2589.css",
+    "static/js/main.fd615601.js"
   ]
 }
