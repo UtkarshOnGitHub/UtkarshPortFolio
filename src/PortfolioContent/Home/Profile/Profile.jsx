@@ -4,7 +4,7 @@ import "./Profile.css"
 
 export default function Profile() {
   return (
-    <div className='profile-container'>
+    <div className='profile-container' data-aos="fade-down">
         <div className='profile-parent'>
           <div className='profile-details'>
               <div className='colz'>
@@ -13,13 +13,13 @@ export default function Profile() {
                       <i className='fa fa-facebook-square'></i>
                   </a>
                   <a href="#">
-                      <i className='fa fa-google-plus-square'></i>
+                      <i className='fa fa-linkedin-square'></i>
                   </a>
                   <a href="#">
                       <i className='fa fa-instagram'></i>
                   </a>
                   <a href="#">
-                      <i className='fa fa-twitter'></i>
+                      <i className='fa fa-github-square'></i>
                   </a>
                 </div>
               </div>
