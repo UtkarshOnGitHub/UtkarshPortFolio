@@ -32,10 +32,8 @@ const About = () => {
           Hello, I'M <span style={{backgroundColor:"yellow" , padding:"0px 10px"}}>UTKARSH</span> 
       </h2>
       <p className="a-desc">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-        minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-        aliquip ex ea commodo consequat duis aute irure dolor in reprehende.
+      I am a highly competent Full Stack Web Developer who is graduated from Masai School. I have strong technical skills as well as excellent interpersonal skills, enabling 
+me to interact  with a wide range of clients. I am eager to obtain a challenging position at a prestigious company that will expand my learning and build upon my developer skills.
       </p>
       <div className="a-award">
         <img src={Award} alt="" className="a-award-img" />
