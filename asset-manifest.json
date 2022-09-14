@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/UtkarshPortFolio/static/css/main.7e6e2d62.css",
-    "main.js": "/UtkarshPortFolio/static/js/main.49b0dec5.js",
+    "main.css": "/UtkarshPortFolio/static/css/main.7ef0331b.css",
+    "main.js": "/UtkarshPortFolio/static/js/main.27d6f173.js",
     "static/js/787.128fc6e9.chunk.js": "/UtkarshPortFolio/static/js/787.128fc6e9.chunk.js",
     "static/media/profilephoto.jpg": "/UtkarshPortFolio/static/media/profilephoto.3c02f5f1a9c832d05929.jpg",
     "static/media/aboutimg2.jpg": "/UtkarshPortFolio/static/media/aboutimg2.ea346f4d89df817d42c2.jpg",
@@ -16,9 +16,12 @@
     "static/media/css.png": "/UtkarshPortFolio/static/media/css.5f2b9169c48263cf4760.png",
     "static/media/mon.png": "/UtkarshPortFolio/static/media/mon.62f6b1e4375f36d6eb26.png",
     "static/media/rct.png": "/UtkarshPortFolio/static/media/rct.f3e576ba08e6be927148.png",
+    "static/media/node1.png": "/UtkarshPortFolio/static/media/node1.02405bd0ada23f5a5f85.png",
     "static/media/js2.png": "/UtkarshPortFolio/static/media/js2.8618298aa7a3f221cfc1.png",
+    "static/media/redux.png": "/UtkarshPortFolio/static/media/redux.b3b939c66aecf7d53967.png",
     "static/media/revicons.eot": "/UtkarshPortFolio/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/UtkarshPortFolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/git.png": "/UtkarshPortFolio/static/media/git.c8007a9fb185cb152ee6.png",
     "static/media/revicons.woff": "/UtkarshPortFolio/static/media/revicons.e8746a624ed098489406.woff",
     "static/media/meter2.svg": "/UtkarshPortFolio/static/media/meter2.1b8f416eccd1ee162218b8528a1c5cdc.svg",
     "static/media/meter1.svg": "/UtkarshPortFolio/static/media/meter1.c4085ff859afbd8488e9da47d4953850.svg",
@@ -26,12 +29,12 @@
     "index.html": "/UtkarshPortFolio/index.html",
     "static/media/arrow2.svg": "/UtkarshPortFolio/static/media/arrow2.3d9522b6fd8f2464b7200ebf2c1bb09a.svg",
     "static/media/arrow1.svg": "/UtkarshPortFolio/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
-    "main.7e6e2d62.css.map": "/UtkarshPortFolio/static/css/main.7e6e2d62.css.map",
-    "main.49b0dec5.js.map": "/UtkarshPortFolio/static/js/main.49b0dec5.js.map",
+    "main.7ef0331b.css.map": "/UtkarshPortFolio/static/css/main.7ef0331b.css.map",
+    "main.27d6f173.js.map": "/UtkarshPortFolio/static/js/main.27d6f173.js.map",
     "787.128fc6e9.chunk.js.map": "/UtkarshPortFolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e6e2d62.css",
-    "static/js/main.49b0dec5.js"
+    "static/css/main.7ef0331b.css",
+    "static/js/main.27d6f173.js"
   ]
 }
