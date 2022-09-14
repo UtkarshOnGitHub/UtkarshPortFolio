@@ -2,8 +2,12 @@ import React from 'react'
 import AppScroll from '../hr/HR'
 import "./Nav.css";
 import { HashLink } from 'react-router-hash-link';
+import { useEffect } from 'react';
 
 const Navigation = () => {
+
+
+
   return (
     <div className='nav-container'>
         <div className='nav-parent'>
@@ -22,8 +26,8 @@ const Navigation = () => {
             <div className='nav-list'>
                 <li><HashLink smooth to="/UtkarshPortfolio#about" scroll={(el) => el.scrollIntoView({ behavior: 'auto', block: 'end' })} >About</HashLink></li>
                 <li><HashLink smooth to="/UtkarshPortfolio#skills" scroll={(el) => el.scrollIntoView({ behavior: 'auto', block: 'end' })}>Skills</HashLink></li>
-                <li><HashLink smooth to="/UtkarshPortfolio#profile">Profile</HashLink></li>
-                <li><HashLink smooth to="/UtkarshPortfolio#home">Projects</HashLink></li>
+                <li><HashLink smooth to="/UtkarshPortfolio#projects">Projects</HashLink></li>
+                <li><HashLink smooth to="/UtkarshPortfolio#home">Contact</HashLink></li>
             </div>
         </div>
     </div>

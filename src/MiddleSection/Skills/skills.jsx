@@ -3,7 +3,9 @@ import meter2 from "../../Assets/Home/css.png";
 import meter3 from "../../Assets/Home/js2.png";
 import meter4 from "../../Assets/Home/rct.png";
 import meter5 from "../../Assets/Home/mon.png";
-import meter6 from "../../Assets/Home/node.png";
+import meter6 from "../../Assets/Home/node1.png";
+import meter7 from "../../Assets/Home/git.png";
+import meter8 from "../../Assets/Home/redux.png";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import arrow1 from "../../Assets/Home/arrow1.svg";
@@ -75,6 +77,14 @@ const Skills = () => {
                             <div className="item">
                                 <img src={meter6} alt="Image" />
                                 <h5>Node JS</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter7} alt="Image" />
+                                <h5>Github</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter8} alt="Image" />
+                                <h5>Redux</h5>
                             </div>
                         </Carousel>
                     </div>

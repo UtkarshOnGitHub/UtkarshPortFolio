@@ -39,22 +39,10 @@ export default function Portfolio() {
           modifier: 1,
           slideShadows: false
         }}
-        pagination={{
-          clickable: true,
-          
-        }}
+        pagination={window.innerWidth < 568 ? false : true}
         className="mySwiper"
       >
-        <SwiperSlide style={{borderRadius:"40px"}}>
-          <div  className="swiperDiv">
-            <img src="https://www.colaborarlabs.com/images/software_project_mngnt.png" />
-          </div>
-          <div className="btn-div">
-          <button>App Preview</button>
-          <button>Source Code</button>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="main-div">
         <div className="swiperDiv">
           <img src="https://twproject.com/blog/wp-content/uploads/project-management-software-in-mother-tongue.png" />
           </div >
@@ -63,23 +51,32 @@ export default function Portfolio() {
           <a href="https://github.com/UtkarshOnGitHub/wretched-grass-6317" target="blank"><button>Source Code</button></a>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="main-div">
           <div className="swiperDiv">
             <img src="https://backlog.com/wp-blog-app/uploads/2021/09/project-planner-backlog-blog.png" />
+          </div>
+          <div className="btn-div">
+          <a href="https://startling-frangipane-867a6a.netlify.app/" target="blank"><button>App Preview</button></a>
+          <a href="https://github.com/sadhakvishu/Slytherin/tree/main/LINKING" target="blank"><button>Source Code</button></a>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="main-div">
+          <div className="swiperDiv">
+            <img src="https://cdn.wedevs.com/uploads/2017/06/How_to_build_a_successful_remote_team_with_project_manager.png" />
+            </div>
+            <div className="btn-div">
+            <a href="https://timely-zuccutto-a4829c.netlify.app/"><button>App Preview</button></a>
+            <a href="https://github.com/UtkarshOnGitHub/ossified-paper-8820"><button>Source Code</button></a>
+            </div>
+        </SwiperSlide>
+        <SwiperSlide style={{borderRadius:"40px"}} className="main-div">
+          <div  className="swiperDiv">
+            <img src="https://www.colaborarlabs.com/images/software_project_mngnt.png" />
           </div>
           <div className="btn-div">
           <button>App Preview</button>
           <button>Source Code</button>
           </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="swiperDiv">
-            <img src="https://cdn.wedevs.com/uploads/2017/06/How_to_build_a_successful_remote_team_with_project_manager.png" />
-            </div>
-            <div className="btn-div">
-            <button>App Preview</button>
-            <button>Source Code</button>
-            </div>
         </SwiperSlide>
       </Swiper>
     </div>

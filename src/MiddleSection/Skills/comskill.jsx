@@ -20,7 +20,7 @@ const ComSkills = () => {
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 3
+      items: 4
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
@@ -48,10 +48,10 @@ const ComSkills = () => {
                         infinite={true} 
                         swipeable={true} 
                         autoPlay={true}
-                         autoPlaySpeed={1000}
+                         autoPlaySpeed={2000}
                         //   draggable={true}
-                          customTransition="all .5"
-                          transitionDuration={500}
+                          // customTransition="all .5"
+                          // transitionDuration={500}
                            className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="Image" />
