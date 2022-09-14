@@ -49,7 +49,7 @@ const Skills = () => {
                         <h2>Technical Skills</h2>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
                         <Carousel responsive={responsive} showDots={true} arrows={false} swipeable={true}
-                         autoPlay={true} autoPlaySpeed={2000}
+                         autoPlay={true} autoPlaySpeed={1000}
                           infinite={true}
                            className="owl-carousel owl-theme skill-slider">
                             <div className="item">
