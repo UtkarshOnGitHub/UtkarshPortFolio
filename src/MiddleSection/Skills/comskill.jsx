@@ -27,7 +27,7 @@ const ComSkills = () => {
       items: 2
     },
     mobile: {
-      breakpoint: { max: 464, min: 0 },
+      breakpoint: { max: 464,min:360},
       items: 1
     }
   };
@@ -37,7 +37,7 @@ const ComSkills = () => {
 
   return (
 
-    <section className="skill" id="skills" data-aos="fade-left">
+    <section className="skill" id="skills" data-aos="fade-up">
         <div className="container">
             <div className="row">
                 <div className="col-12">
@@ -48,7 +48,7 @@ const ComSkills = () => {
                         infinite={true} 
                         swipeable={true} 
                         autoPlay={true}
-                         autoPlaySpeed={2000}
+                         autoPlaySpeed={1000}
                         //   draggable={true}
                           customTransition="all .5"
                           transitionDuration={500}

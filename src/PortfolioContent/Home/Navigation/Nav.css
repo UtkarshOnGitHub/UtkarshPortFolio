@@ -1,5 +1,6 @@
 .nav-container{
     display: flex;
+    
 }
 .nav-parent{
     display: flex;
@@ -15,6 +16,11 @@
     list-style: none;
     padding: 25px;
     font-size: 20px;
+    
+}
+.nav-list li a{
+  color: white;
+  list-style: none;
 }
 .nav-list li:hover{
     cursor: pointer;

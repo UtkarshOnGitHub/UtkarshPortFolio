@@ -15,7 +15,7 @@ const About = () => {
     AOS.init({ duration:2000})
   },[])
   return (
-    <div className="a" data-aos="fade-up">
+    <div className="a" data-aos="fade-up" id='about'>
     <div className="a-left">
       <div className="a-card bg"></div>
       <div className="a-card">

@@ -24,10 +24,11 @@
       margin: 14px 0 75px 0;
   }
   .skill-slider {
-    width: 80%;
-    margin: 0 auto;
+    width: 100%;
+    margin: auto auto;
     position: relative;
     /* margin-right: 93px; */
+    /* border: 1px solid red; */
   }
   .skill-slider .item img {
     width: 50%;
@@ -42,6 +43,7 @@
   }
   .container{
     max-width: 1400px;
+    
   }
   .item{
     width: 300px;

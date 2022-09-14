@@ -1,40 +1,107 @@
-.portfolio {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    height: 70vh;
-  
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 400px;
+}
+
+@media (max-width: 768px) {
+  .swiper-slide {
+    width: 250px;
+    height: auto;
   }
-  /* heading */
-  .portfolio span:nth-of-type(1) {
-    color: var(--black);
-    font-size: 2rem;
-    font-weight: bold;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.container1 {
+  position: relative;
+  width: 90%;
+  height: 50vh;
+  /* background-color: #000; */
+  display: block;
+  margin-top: 50px;
+  margin: auto;
+}
+
+.container .swiper-container {
+  width: 70%;
+  position: absolute;
+  left: 50%;
+  bottom: -16vw;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  z-index: 2;
+  padding-bottom: 3vw;
+}
+
+@media (max-width: 768px) {
+  .container .swiper-container {
+    bottom: -58vw;
+    padding-bottom: 8vw;
   }
-  
-  .portfolio span:nth-of-type(2) {
-    color: var(--orange);
-    font-size: 2.5rem;
-    font-weight: bold;
+}
+
+.title_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding: 3vw 0 2vw 0;
+}
+
+@media (max-width: 768px) {
+  .title_wrapper {
+    padding-top: 13vw;
   }
-  
-  /* slider */
-  .portfolio .swiper{
-      overflow: visible!important;
+}
+
+@media (max-width: 768px) {
+  .title_wrapper .reactLogo {
+    width: 25vw;
+    height: 25vw;
   }
-  
-  .portfolio-slider {
-    margin-top: 3rem;
-    width: 100%;
+}
+
+.title_wrapper .reactLogo img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.title_wrapper .title_ {
+  color: rgb(0, 0, 0);
+  text-align: left;
+  font-size: 2vw;
+}
+
+@media (max-width: 768px) {
+  .title_wrapper .title_ {
+    font-size: 7vw;
   }
-  
-  .portfolio-slider .swiper-slide {
-    width: 20rem;
-  }
-  .portfolio img {
-    width: 19rem;
-    filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
-    border-radius: 19px;
-  }
-  
+}
+
+.title_wrapper .title_ span {
+  display: block;
+}
+
+.swiper-pagination-fraction {
+  bottom: 0;
+}
+
+.swiper-pagination-bullet {
+  width: 25px;
+  height: 5px;
+  border-radius: 5px;
+}

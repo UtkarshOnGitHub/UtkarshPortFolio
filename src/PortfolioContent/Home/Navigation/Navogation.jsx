@@ -1,6 +1,7 @@
 import React from 'react'
-import AppScroll from '../scroll/scroll'
-import "./Nav.css"
+import AppScroll from '../hr/HR'
+import "./Nav.css";
+import { HashLink } from 'react-router-hash-link';
 
 const Navigation = () => {
   return (
@@ -19,10 +20,10 @@ const Navigation = () => {
             <i></i>
             </div>
             <div className='nav-list'>
-                <li>Home</li>
-                <li>Skills</li>
-                <li>Profile</li>
-                <li>Projects</li>
+                <li><HashLink smooth to="/UtkarshPortfolio#about" scroll={(el) => el.scrollIntoView({ behavior: 'auto', block: 'end' })} >About</HashLink></li>
+                <li><HashLink smooth to="/UtkarshPortfolio#skills" scroll={(el) => el.scrollIntoView({ behavior: 'auto', block: 'end' })}>Skills</HashLink></li>
+                <li><HashLink smooth to="/UtkarshPortfolio#profile">Profile</HashLink></li>
+                <li><HashLink smooth to="/UtkarshPortfolio#home">Projects</HashLink></li>
             </div>
         </div>
     </div>

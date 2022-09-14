@@ -24,32 +24,31 @@ const Skills = () => {
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 3
+      items: 5
     },
     tablet: {
-      breakpoint: { max: 1024, min: 464 },
+      breakpoint: { max: 1024, min: 501 },
       items: 2
     },
     mobile: {
-      breakpoint: { max: 464, min: 0 },
+      breakpoint: { max: 500, min: 350 },
       items: 1,
       showDots:false
-    }
+    },
   };
-  useEffect(()=>{
+
     AOS.init({ duration:2000})
-  },[])
 
   return (
-
-    <section className="skill" id="skills" data-aos="fade-left">
+    <section className="skill" id="skills" data-aos="fade-up">
         <div className="container">
+            
             <div className="row">
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Technical Skills</h2>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
-                        <Carousel responsive={responsive} arrows={false} swipeable={true}
+                        <Carousel responsive={responsive} showDots={true} arrows={false} swipeable={true}
                          autoPlay={true} autoPlaySpeed={2000}
                           infinite={true}
                            className="owl-carousel owl-theme skill-slider">

@@ -4,7 +4,7 @@ import "./Profile.css"
 
 export default function Profile() {
   return (
-    <div className='profile-container' data-aos="fade-down">
+    <div className='profile-container' data-aos="fade-down" id='home'>
         <div className='profile-parent'>
           <div className='profile-details'>
               <div className='colz'>
@@ -65,6 +65,7 @@ export default function Profile() {
           <div className='profile-picture-background'></div>
         </div>
       </div>
+  
     </div>
   )
 }

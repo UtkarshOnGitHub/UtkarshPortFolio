@@ -7,7 +7,7 @@ import Navigation from './Navigation/Navogation'
 
 const Home = () => {
   return (
-    <div className='home-container'>
+    <div className='home-container' >
         <Navigation/>
         <Profile/>
         <Footer/>  
