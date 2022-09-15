@@ -48,14 +48,16 @@
 .container1 {
   position: relative;
   width: 90%;
-  height: 50vh;
+  height: 70vh;
   /* background-color: #000; */
   display: block;
   margin-top: 80px;
   margin: auto;
+  /* border: 1px solid red; */
+  overflow: hidden;
 }
 
-.container .swiper-container {
+.container1 .swiper-container {
   width: 70%;
   position: absolute;
   left: 50%;
@@ -67,7 +69,7 @@
 }
 
 @media (max-width: 768px) {
-  .container .swiper-container {
+  .container1 .swiper-container {
     bottom: -58vw;
     padding-bottom: 8vw;
   }

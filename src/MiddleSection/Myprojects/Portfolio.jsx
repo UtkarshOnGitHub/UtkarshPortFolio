@@ -1,10 +1,12 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css"
-// import "swiper/components/effect-coverflow/effect-coverflow.min.css"
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "./Portfolio.css";
-import "swiper/css/effect-coverflow"
+import "swiper/css/effect-coverflow";
+import mode from "../../Assets/Home/mode.jpg"
+import asos from "../../Assets/Home/asos.jpg"
+import trav from "../../Assets/Home/trav.jpg"
 import SwiperCore, {
   EffectCoverflow,
   Pagination,
@@ -44,7 +46,7 @@ export default function Portfolio() {
       >
         <SwiperSlide className="main-div">
         <div className="swiperDiv">
-          <img src="https://twproject.com/blog/wp-content/uploads/project-management-software-in-mother-tongue.png" />
+          <img src={asos} />
           </div >
           <div className="btn-div">
           <a href="https://asos-lake.vercel.app/" target="blank"><button>App Preview</button></a>
@@ -53,7 +55,7 @@ export default function Portfolio() {
         </SwiperSlide>
         <SwiperSlide className="main-div">
           <div className="swiperDiv">
-            <img src="https://backlog.com/wp-blog-app/uploads/2021/09/project-planner-backlog-blog.png" />
+            <img src={mode} />
           </div>
           <div className="btn-div">
           <a href="https://startling-frangipane-867a6a.netlify.app/" target="blank"><button>App Preview</button></a>
@@ -62,14 +64,14 @@ export default function Portfolio() {
         </SwiperSlide>
         <SwiperSlide className="main-div">
           <div className="swiperDiv">
-            <img src="https://cdn.wedevs.com/uploads/2017/06/How_to_build_a_successful_remote_team_with_project_manager.png" />
+            <img src={trav} />
             </div>
             <div className="btn-div">
             <a href="https://timely-zuccutto-a4829c.netlify.app/"><button>App Preview</button></a>
             <a href="https://github.com/UtkarshOnGitHub/ossified-paper-8820"><button>Source Code</button></a>
             </div>
         </SwiperSlide>
-        <SwiperSlide style={{borderRadius:"40px"}} className="main-div">
+        {/* <SwiperSlide style={{borderRadius:"40px"}} className="main-div">
           <div  className="swiperDiv">
             <img src="https://www.colaborarlabs.com/images/software_project_mngnt.png" />
           </div>
@@ -77,7 +79,7 @@ export default function Portfolio() {
           <button>App Preview</button>
           <button>Source Code</button>
           </div>
-        </SwiperSlide>
+        </SwiperSlide> */}
       </Swiper>
     </div>
   );

@@ -1,0 +1,140 @@
+.main{
+    /* border: 1px solid red; */
+    margin-top: 150PX;
+    text-align: center;
+}
+.contact-parent{
+    /* border: 1px solid red; */
+}
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+    margin-right: 200px;
+    margin: auto;
+
+}
+.inputBox{
+    position: relative;
+    width: 100%;
+    
+    
+}
+.freeform1{
+    width: 100%;
+    padding: 10px;
+    /* border-radius: 5px; */
+    outline: none;
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+    border: 1px solid rgb(0, 0, 0);
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    margin-top: 10px;
+}
+.freeform{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+    border: none;
+    
+}
+.inputBox span{
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    pointer-events: none;
+    font-size: 1em;
+    color: rgba(255, 2555, 255, 0.25);
+    text-transform: uppercase;
+    transition: 0.5s;
+    color: black;
+    margin-top: 5px;
+}
+
+.freeform1:valid ~ span,
+.freeform1:focus ~ span
+{
+    color: #FF5823;
+    transform: translateX(10px) translateY(-7px);
+    padding: 0 10px;
+    font-size: 0.88em;
+    background: white;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+
+}
+.section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+}
+.IMG{
+    width: 30%;
+    height: 400px;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+.IMG img{
+    width: 100%;
+    height: 100%;
+}
+.input button{
+    padding: 7px;
+    background-color:#FF5823;
+    color: white;
+    border: none;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.input button:hover{
+    animation: effect 0.2s infinite;
+}
+
+
+@keyframes effect {
+    0% {
+        transform: translateX(0px) rotate(0deg);
+    }
+
+    20% {
+        transform: translateX(-4px) rotate(-4deg);
+    }
+
+    40% {
+        transform: translateX(-2px) rotate(-2deg);
+    }
+
+    60% {
+        transform: translateX(4px) rotate(4deg);
+    }
+
+    80% {
+        transform: translateX(2px) rotate(2deg);
+    }
+
+    100% {
+        transform: translateX(0px) rotate(0deg);
+    }
+}
+
+
+@media screen and (max-width:500px){
+    .section{
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    .main{
+        margin-top: -80px;
+    }
+}
