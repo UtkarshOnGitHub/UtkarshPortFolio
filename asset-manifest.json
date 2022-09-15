@@ -1,17 +1,21 @@
 {
   "files": {
-    "main.css": "/UtkarshPortFolio/static/css/main.7ef0331b.css",
-    "main.js": "/UtkarshPortFolio/static/js/main.27d6f173.js",
+    "main.css": "/UtkarshPortFolio/static/css/main.e93222fb.css",
+    "main.js": "/UtkarshPortFolio/static/js/main.3188a837.js",
     "static/js/787.128fc6e9.chunk.js": "/UtkarshPortFolio/static/js/787.128fc6e9.chunk.js",
     "static/media/profilephoto.jpg": "/UtkarshPortFolio/static/media/profilephoto.3c02f5f1a9c832d05929.jpg",
+    "static/media/mode.jpg": "/UtkarshPortFolio/static/media/mode.eadb92502d968ba968c5.jpg",
+    "static/media/msg.png": "/UtkarshPortFolio/static/media/msg.cc44593a5dff56416da7.png",
     "static/media/aboutimg2.jpg": "/UtkarshPortFolio/static/media/aboutimg2.ea346f4d89df817d42c2.jpg",
     "static/media/Poppins-Thin.ttf": "/UtkarshPortFolio/static/media/Poppins-Thin.a61eaf4c2e4d44d6db6a.ttf",
     "static/media/Poppins-Light.ttf": "/UtkarshPortFolio/static/media/Poppins-Light.f41b63c0bb0963ace821.ttf",
+    "static/media/asos.jpg": "/UtkarshPortFolio/static/media/asos.bd460fada36f423177eb.jpg",
     "static/media/Poppins-Regular.ttf": "/UtkarshPortFolio/static/media/Poppins-Regular.8081832fc5cfbf634aa6.ttf",
     "static/media/Poppins-Medium.ttf": "/UtkarshPortFolio/static/media/Poppins-Medium.9e1bb626874ed49aa343.ttf",
     "static/media/Poppins-SemiBold.ttf": "/UtkarshPortFolio/static/media/Poppins-SemiBold.cce5625b56ec678e4202.ttf",
     "static/media/Poppins-Bold.ttf": "/UtkarshPortFolio/static/media/Poppins-Bold.404e299be26d78e66794.ttf",
     "static/media/Poppins-ExtraBold.ttf": "/UtkarshPortFolio/static/media/Poppins-ExtraBold.4ed78cd5d64af4efc3c7.ttf",
+    "static/media/trav.jpg": "/UtkarshPortFolio/static/media/trav.25d3d2a5278bdb869c30.jpg",
     "static/media/comp.png": "/UtkarshPortFolio/static/media/comp.213ed759e68a26e060c9.png",
     "static/media/css.png": "/UtkarshPortFolio/static/media/css.5f2b9169c48263cf4760.png",
     "static/media/mon.png": "/UtkarshPortFolio/static/media/mon.62f6b1e4375f36d6eb26.png",
@@ -29,12 +33,12 @@
     "index.html": "/UtkarshPortFolio/index.html",
     "static/media/arrow2.svg": "/UtkarshPortFolio/static/media/arrow2.3d9522b6fd8f2464b7200ebf2c1bb09a.svg",
     "static/media/arrow1.svg": "/UtkarshPortFolio/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
-    "main.7ef0331b.css.map": "/UtkarshPortFolio/static/css/main.7ef0331b.css.map",
-    "main.27d6f173.js.map": "/UtkarshPortFolio/static/js/main.27d6f173.js.map",
+    "main.e93222fb.css.map": "/UtkarshPortFolio/static/css/main.e93222fb.css.map",
+    "main.3188a837.js.map": "/UtkarshPortFolio/static/js/main.3188a837.js.map",
     "787.128fc6e9.chunk.js.map": "/UtkarshPortFolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ef0331b.css",
-    "static/js/main.27d6f173.js"
+    "static/css/main.e93222fb.css",
+    "static/js/main.3188a837.js"
   ]
 }
