@@ -8,6 +8,7 @@ import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 import { Text } from '@chakra-ui/react';
 import Typical from "react-typical";
+;
 
 
 const About = () => {
@@ -51,6 +52,7 @@ me to interact  with a wide range of clients. I am eager to obtain a challenging
         </div>
       </div>
     </div>
+
   </div>
   )
 }

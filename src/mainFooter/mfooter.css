@@ -1,0 +1,27 @@
+.Parent{
+    /* border: 1px solid red; */
+    text-align: center;
+    background-color: #505659;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.child{
+    padding: 10px;
+}
+.child h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-size: 25px;
+}
+.Icons {
+    margin-top: 10px;
+    font-size: 30px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}

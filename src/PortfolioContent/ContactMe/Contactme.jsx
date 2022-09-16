@@ -4,17 +4,18 @@ import shaper from "../../Assets/Home/msg.png"
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import emailjs from '@emailjs/browser';
+import { useState } from "react";
 
 const Contactme = () => {
-
+  const [state,setState] = useState(false)
     const form = useRef();
 
     const sendEmail = (e) => {
       e.preventDefault();
-        alert("helo")
       emailjs.sendForm('service_obs93q9', 'template_8dxo6kd', form.current, "ynmRzGeiRQKPN2r1z")
         .then((result) => {
             console.log(result.text);
+            setState(true)
         }, (error) => {
             console.log(error.text);
         });
@@ -50,7 +51,9 @@ const Contactme = () => {
                     </button>
             </form>
         </div>
-
+          <div>
+            <h3>{state ? "Thanks For Replying !": ""}</h3>
+          </div>
       </div>
         
     </div>
