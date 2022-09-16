@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/UtkarshPortFolio/static/css/main.e93222fb.css",
-    "main.js": "/UtkarshPortFolio/static/js/main.3188a837.js",
+    "main.css": "/UtkarshPortFolio/static/css/main.63c650a0.css",
+    "main.js": "/UtkarshPortFolio/static/js/main.93a31dac.js",
     "static/js/787.128fc6e9.chunk.js": "/UtkarshPortFolio/static/js/787.128fc6e9.chunk.js",
     "static/media/profilephoto.jpg": "/UtkarshPortFolio/static/media/profilephoto.3c02f5f1a9c832d05929.jpg",
     "static/media/mode.jpg": "/UtkarshPortFolio/static/media/mode.eadb92502d968ba968c5.jpg",
@@ -33,12 +33,12 @@
     "index.html": "/UtkarshPortFolio/index.html",
     "static/media/arrow2.svg": "/UtkarshPortFolio/static/media/arrow2.3d9522b6fd8f2464b7200ebf2c1bb09a.svg",
     "static/media/arrow1.svg": "/UtkarshPortFolio/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
-    "main.e93222fb.css.map": "/UtkarshPortFolio/static/css/main.e93222fb.css.map",
-    "main.3188a837.js.map": "/UtkarshPortFolio/static/js/main.3188a837.js.map",
+    "main.63c650a0.css.map": "/UtkarshPortFolio/static/css/main.63c650a0.css.map",
+    "main.93a31dac.js.map": "/UtkarshPortFolio/static/js/main.93a31dac.js.map",
     "787.128fc6e9.chunk.js.map": "/UtkarshPortFolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e93222fb.css",
-    "static/js/main.3188a837.js"
+    "static/css/main.63c650a0.css",
+    "static/js/main.93a31dac.js"
   ]
 }
