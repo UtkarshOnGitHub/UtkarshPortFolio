@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/UtkarshPortFolio/static/css/main.63c650a0.css",
-    "main.js": "/UtkarshPortFolio/static/js/main.93a31dac.js",
+    "main.css": "/UtkarshPortFolio/static/css/main.835d5d80.css",
+    "main.js": "/UtkarshPortFolio/static/js/main.5599acfd.js",
     "static/js/787.128fc6e9.chunk.js": "/UtkarshPortFolio/static/js/787.128fc6e9.chunk.js",
     "static/media/profilephoto.jpg": "/UtkarshPortFolio/static/media/profilephoto.3c02f5f1a9c832d05929.jpg",
     "static/media/mode.jpg": "/UtkarshPortFolio/static/media/mode.eadb92502d968ba968c5.jpg",
@@ -17,28 +17,27 @@
     "static/media/Poppins-ExtraBold.ttf": "/UtkarshPortFolio/static/media/Poppins-ExtraBold.4ed78cd5d64af4efc3c7.ttf",
     "static/media/trav.jpg": "/UtkarshPortFolio/static/media/trav.25d3d2a5278bdb869c30.jpg",
     "static/media/comp.png": "/UtkarshPortFolio/static/media/comp.213ed759e68a26e060c9.png",
+    "static/media/github.png": "/UtkarshPortFolio/static/media/github.c494bab93215df36b58e.png",
     "static/media/css.png": "/UtkarshPortFolio/static/media/css.5f2b9169c48263cf4760.png",
-    "static/media/mon.png": "/UtkarshPortFolio/static/media/mon.62f6b1e4375f36d6eb26.png",
+    "static/media/mon.png": "/UtkarshPortFolio/static/media/mon.7e5b739c354145fa00c5.png",
+    "static/media/gitt.png": "/UtkarshPortFolio/static/media/gitt.db6cd421f3bbd15e7c73.png",
     "static/media/rct.png": "/UtkarshPortFolio/static/media/rct.f3e576ba08e6be927148.png",
     "static/media/node1.png": "/UtkarshPortFolio/static/media/node1.02405bd0ada23f5a5f85.png",
     "static/media/js2.png": "/UtkarshPortFolio/static/media/js2.8618298aa7a3f221cfc1.png",
     "static/media/redux.png": "/UtkarshPortFolio/static/media/redux.b3b939c66aecf7d53967.png",
     "static/media/revicons.eot": "/UtkarshPortFolio/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/UtkarshPortFolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
-    "static/media/git.png": "/UtkarshPortFolio/static/media/git.c8007a9fb185cb152ee6.png",
     "static/media/revicons.woff": "/UtkarshPortFolio/static/media/revicons.e8746a624ed098489406.woff",
     "static/media/meter2.svg": "/UtkarshPortFolio/static/media/meter2.1b8f416eccd1ee162218b8528a1c5cdc.svg",
     "static/media/meter1.svg": "/UtkarshPortFolio/static/media/meter1.c4085ff859afbd8488e9da47d4953850.svg",
     "static/media/meter3.svg": "/UtkarshPortFolio/static/media/meter3.2201f7e4df22bc4b08180210474f28cc.svg",
     "index.html": "/UtkarshPortFolio/index.html",
-    "static/media/arrow2.svg": "/UtkarshPortFolio/static/media/arrow2.3d9522b6fd8f2464b7200ebf2c1bb09a.svg",
-    "static/media/arrow1.svg": "/UtkarshPortFolio/static/media/arrow1.0c89b5b635adf255c2822c630aaa6ccf.svg",
-    "main.63c650a0.css.map": "/UtkarshPortFolio/static/css/main.63c650a0.css.map",
-    "main.93a31dac.js.map": "/UtkarshPortFolio/static/js/main.93a31dac.js.map",
+    "main.835d5d80.css.map": "/UtkarshPortFolio/static/css/main.835d5d80.css.map",
+    "main.5599acfd.js.map": "/UtkarshPortFolio/static/js/main.5599acfd.js.map",
     "787.128fc6e9.chunk.js.map": "/UtkarshPortFolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.63c650a0.css",
-    "static/js/main.93a31dac.js"
+    "static/css/main.835d5d80.css",
+    "static/js/main.5599acfd.js"
   ]
 }
