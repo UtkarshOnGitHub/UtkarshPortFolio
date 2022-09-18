@@ -44,6 +44,7 @@
 }
 .btn-div button:hover{
   background-color: #FF5823;
+  animation: effect 0.2s infinite;
 }
 
 .container1 {
@@ -52,8 +53,9 @@
   height: 80vh;
   /* background-color: #000; */
   display: block;
-  margin-top: 80px;
+  
   margin: auto;
+  margin-top: 120px;
   /* border: 1px solid red; */
   /* overflow: hidden; */
 }
@@ -144,12 +146,36 @@
 
 .swiperDiv{
   width: 70%;
-  height: 74%;
+  height: 79%;
   border-radius: 10px;
   /* border: 1px solid red; */
   /* margin-left: 25%; */
   margin: auto;
 }
-/* .main-div{
-  border: 1px solid red;
-/* }  */
+
+
+@keyframes effect {
+  0% {
+      transform: translateX(0px) rotate(0deg);
+  }
+
+  20% {
+      transform: translateX(-4px) rotate(-4deg);
+  }
+
+  40% {
+      transform: translateX(-2px) rotate(-2deg);
+  }
+
+  60% {
+      transform: translateX(4px) rotate(4deg);
+  }
+
+  80% {
+      transform: translateX(2px) rotate(2deg);
+  }
+
+  100% {
+      transform: translateX(0px) rotate(0deg);
+  }
+}

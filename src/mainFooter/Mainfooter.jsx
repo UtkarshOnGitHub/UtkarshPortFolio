@@ -9,9 +9,9 @@ const Mainfooter = () => {
         <div className='child'>
             <h1>Follow Me On</h1>
             <div className='Icons'>
-                <AiFillGithub/>
-                <FaLinkedinIn/>
-                <AiFillYoutube/>
+                <a href="https://github.com/UtkarshOnGitHub#"><AiFillGithub/></a>
+                <a href="https://www.linkedin.com/in/utkarsh-sharma-879799236/"><FaLinkedinIn/></a>
+                <a href="https://www.youtube.com/channel/UChyrBxBe5e0KbBMnrSxq41w"><AiFillYoutube/></a>
             </div>
         </div>
     </div>

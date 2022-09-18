@@ -1,24 +1,29 @@
 import React from 'react';
 import Typical from "react-typical";
 import "./Profile.css"
+import { HashLink as Link} from 'react-router-hash-link';
 
 export default function Profile() {
+  // const goToContact=()=>{
+  //   console.log("Clicked");
+  //   window.scrollTo({ bottom: 0, left: 0, behavior: "smooth" });
+  // }
   return (
     <div className='profile-container' data-aos="fade-down" id='home'>
         <div className='profile-parent'>
           <div className='profile-details'>
               <div className='colz'>
                 <div className='colz-icon'>
-                  <a href="#">
+                  <a href="https://www.facebook.com/utkarsh.sharma.5872682/" target="blank">
                       <i className='fa fa-facebook-square'></i>
                   </a>
-                  <a href="#">
+                  <a href="https://www.linkedin.com/in/utkarsh-sharma-879799236/" target="blank">
                       <i className='fa fa-linkedin-square'></i>
                   </a>
-                  <a href="#">
-                      <i className='fa fa-instagram'></i>
+                  <a href="https://www.youtube.com/channel/UChyrBxBe5e0KbBMnrSxq41w" target="blank">
+                      <i className='fa fa-youtube-square'></i>
                   </a>
-                  <a href="#">
+                  <a href="https://github.com/UtkarshOnGitHub#" target="blank">
                       <i className='fa fa-github-square'></i>
                   </a>
                 </div>
@@ -37,10 +42,10 @@ export default function Profile() {
                     <Typical
                     loop={Infinity}
                     steps={[
-                      "Ethusiastic Dev",2000,
+                      "Ethusiastic Developer",2000,
                       "Full Stack Developer",2000,
-                      "Mern Stack Dev",2000,
-                      "React Dev",2000,
+                      "Mern Stack Developer",2000,
+                      "React Developer",2000,
                     ]}
                     />
                 </h1>
@@ -50,10 +55,10 @@ export default function Profile() {
             </span>
           </div>
           <div className='profile-options'>
-            <button className='btn primary-btn'>
+            <Link smooth to="#contact"><button className='btn primary-btn'>
               {"  "}
               Hire Me{"  "}
-            </button>
+            </button></Link>
             <a href="Utkarshfw19_Resume.pdf" download="Utkarsh_Resume">
               <button className='btn highlighted-btn'>
                     Get Resume

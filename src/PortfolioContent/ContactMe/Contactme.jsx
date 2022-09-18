@@ -25,7 +25,7 @@ const Contactme = () => {
 
 
   return (
-    <div className="main" data-aos="fade-up">
+    <div className="main" data-aos="fade-up" id="contact">
       <div className="contact-parent">
         <div className="heading">
           <h1>Contact ME</h1>

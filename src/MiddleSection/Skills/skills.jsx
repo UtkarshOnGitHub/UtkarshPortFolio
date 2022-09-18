@@ -4,12 +4,11 @@ import meter3 from "../../Assets/Home/js2.png";
 import meter4 from "../../Assets/Home/rct.png";
 import meter5 from "../../Assets/Home/mon.png";
 import meter6 from "../../Assets/Home/node1.png";
-import meter7 from "../../Assets/Home/git.png";
+import meter7 from "../../Assets/Home/gitt.png";
 import meter8 from "../../Assets/Home/redux.png";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import arrow1 from "../../Assets/Home/arrow1.svg";
-import arrow2 from "../../Assets/Home/arrow2.svg";
+
 
 
 import AOS from 'aos';
@@ -49,7 +48,8 @@ const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Technical Skills</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
+                        <p><br></br> 
+                        </p>
                         <Carousel responsive={responsive} showDots={true} arrows={false} swipeable={true}
                          autoPlay={true} autoPlaySpeed={1000}
                           infinite={true}

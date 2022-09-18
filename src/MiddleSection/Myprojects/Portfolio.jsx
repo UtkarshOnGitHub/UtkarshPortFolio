@@ -22,7 +22,7 @@ export default function Portfolio() {
 
   AOS.init({ duration:2000})
   return (
-    <div className="container1" data-aos="fade-up">
+    <div className="container1" data-aos="fade-up" id="projects">
       <div className="title_wrapper">
         <div className="title_">
           <h1>Projects</h1>

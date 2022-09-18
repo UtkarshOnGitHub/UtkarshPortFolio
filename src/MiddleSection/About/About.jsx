@@ -46,8 +46,7 @@ me to interact  with a wide range of clients. I am eager to obtain a challenging
           <Typical loop={Infinity} steps={["1000+ hours Of Coding",2000,"200+ DSA Question Solved",2000 , "3 Live Projects" , 2000 , "Team Work",2000]}/>
           </h4>
           <p className="a-award-desc">
-            Nemo enim ipsam voluptatem quia voluptas sit aspernatur autodit
-            and fugit.
+          Knack Of Building application with front and backend operations.
           </p>
         </div>
       </div>

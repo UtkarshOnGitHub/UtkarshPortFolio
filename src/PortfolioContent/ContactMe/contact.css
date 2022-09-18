@@ -6,10 +6,10 @@
 .contact-parent{
     /* border: 1px solid red; */
 }
-.heading h1{
+/* .heading h1{
     font-family: 'Times New Roman', Times, serif;
     font-style: oblique;
-}
+} */
 .input{
     display: flex;
     justify-content: center;
