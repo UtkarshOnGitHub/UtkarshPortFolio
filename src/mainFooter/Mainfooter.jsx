@@ -6,7 +6,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 const Mainfooter = () => {
   return (
     <div className='Parent'>
-        <div className='child'>
+        <div className='childF'>
             <h1>Follow Me On</h1>
             <div className='Icons'>
                 <a href="https://github.com/UtkarshOnGitHub#"><AiFillGithub/></a>

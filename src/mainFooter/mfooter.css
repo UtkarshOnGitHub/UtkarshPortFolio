@@ -8,10 +8,10 @@
     justify-content: center;
     margin-top: 50px;
 }
-.child{
+.childF{
     padding: 10px;
 }
-.child h1{
+.childF h1{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: italic;
     font-size: 25px;

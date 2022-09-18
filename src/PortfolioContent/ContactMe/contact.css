@@ -1,6 +1,6 @@
 .main{
     /* border: 1px solid red; */
-    margin-top: 100PX;
+    margin-top: 150PX;
     text-align: center;
 }
 .contact-parent{
@@ -139,7 +139,7 @@
         align-items: center;
     }
     .main{
-        margin-top: -80px;
+        margin-top: -350px;
     }
     .inputBox{
         width: 70%;

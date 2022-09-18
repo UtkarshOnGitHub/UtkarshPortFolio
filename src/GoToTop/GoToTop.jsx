@@ -45,10 +45,11 @@ const Wrapper = styled.section`
   .top-btn {
     display:block;
     // border:1px solid black;
-    font-size: 2.5rem;
+    background-color:#FF5823;
+    font-size: 1.8rem;
     width: 3rem;
     height: 3rem;
-    color: #FF5823;
+    color: white;
     border-radius: 50%;
     position: fixed;
     bottom: 5rem;
