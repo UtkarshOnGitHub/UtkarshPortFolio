@@ -25,3 +25,11 @@
     align-items: center;
     gap: 30px;
 }
+@media screen and (max-width:500px){
+    .child{
+        padding: 0px;
+    }
+    .childF h1{
+        display: none;
+    }
+}

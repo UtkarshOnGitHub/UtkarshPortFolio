@@ -88,11 +88,17 @@
   -ms-flex-line-pack: center;
       align-content: center;
   padding: 3vw 0 2vw 0;
+  margin-bottom: 30px;
 }
 
 @media (max-width: 768px) {
   .title_wrapper {
     padding-top: 13vw;
+  }
+}
+@media (max-width: 500px){
+  .container1{
+    margin-top: -40px;
   }
 }
 
