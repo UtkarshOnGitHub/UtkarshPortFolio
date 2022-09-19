@@ -58,7 +58,7 @@ export default function Portfolio() {
             <img src={mode} />
           </div>
           <div className="btn-div">
-          <a href="https://startling-frangipane-867a6a.netlify.app/" target="blank"><button>App Preview</button></a>
+          <a href="https://sadhakvishu.github.io/Slytherin/" target="blank"><button>App Preview</button></a>
           <a href="https://github.com/sadhakvishu/Slytherin/tree/main/LINKING" target="blank"><button>Source Code</button></a>
           </div>
         </SwiperSlide>

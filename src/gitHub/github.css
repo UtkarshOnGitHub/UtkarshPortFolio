@@ -9,10 +9,12 @@
 }
 .child{
     width: 90%;
+    border-radius: 30px;
 }
 
 .child img{
     width: 100%;
+    border-radius: 30px;
 }
 
 
