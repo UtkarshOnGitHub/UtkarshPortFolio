@@ -1,13 +1,19 @@
 .nav-container{
     display: flex;
-    
 }
-.nav-parent{
+.scroll{
+  z-index: 100;
+  position:fixed ;
+  color: black;
+  /* left: 86px; */
+  background-image: url("../../../Assets/Home/bg.jpg");
+}
+.navbar-parent{
     display: flex;
-    color: white;
-    width: 90%;
+    width: 100%;
     justify-content: space-between;
     margin: auto;
+    padding: 0px 40px;
 }
 .nav-list{
     display: flex;
@@ -49,9 +55,20 @@
       transform: rotateY(360deg) 
     }
   }
+@media screen and (max-width:800px){
+  .navbar-parent{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: auto;
+    padding: 0px 40px;
+  }
+  .scroll{
+    display: none;
+  }
+}
 
-
-@media screen and (max-width:500px) {
+@media screen and (max-width:759px) {
   .nav-list{
     display: none;
   }
