@@ -36,7 +36,7 @@ const Navigation = () => {
                 <li><Link smooth to="#projects" scroll={(el) => el.scrollIntoView({ behavior: 'auto', block: 'end' })}>Projects</Link></li>
                 <li><Link smooth to="#contact" scroll={(el) => el.scrollIntoView({ behavior: 'auto', block: 'end' })}>Contact</Link></li>
                 <li><a href="Utkarshfw19_Resume.pdf" download="Utkarsh_Resume">Resume</a></li>
-            </div>
+            </div> 
         </div>
     </div>
   )
