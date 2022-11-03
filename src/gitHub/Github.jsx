@@ -15,7 +15,7 @@ const GitHub = () => {
     <div data-aos="zoom-in-down">
       <Text mt="6%" textAlign={"center"} fontSize="4xl">DAYS I CODE</Text>
       <Box
-        w={["80%", "80%", "65%"]}
+        w={["85%", "85%", "65%"]}
         style={github}
         className="github_Calender"
       >

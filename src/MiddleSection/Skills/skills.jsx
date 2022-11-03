@@ -15,6 +15,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import "./skills.css"
 import { useEffect } from "react";
+import { Text } from "@chakra-ui/react";
 
 const Skills = () => {
   const responsive = {
@@ -47,7 +48,7 @@ const Skills = () => {
             <div className="row">
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
-                        <h2>Technical Skills</h2>
+                        <Text fontSize={"40px"} as="em">Technical Skills</Text>
                         <p><br></br> 
                         </p>
                         <Carousel responsive={responsive} showDots={true} arrows={false} swipeable={true}
