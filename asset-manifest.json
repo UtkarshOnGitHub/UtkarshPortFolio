@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/UtkarshPortFolio/static/css/main.a12e8592.css",
-    "main.js": "/UtkarshPortFolio/static/js/main.aa555647.js",
+    "main.css": "/UtkarshPortFolio/static/css/main.45a82699.css",
+    "main.js": "/UtkarshPortFolio/static/js/main.d76368fd.js",
     "static/js/787.128fc6e9.chunk.js": "/UtkarshPortFolio/static/js/787.128fc6e9.chunk.js",
     "static/media/travelocity.png": "/UtkarshPortFolio/static/media/travelocity.e361117ff29fee99107a.png",
     "static/media/modesens.png": "/UtkarshPortFolio/static/media/modesens.972b1ca88f30121991c8.png",
@@ -33,12 +33,12 @@
     "static/media/meter1.svg": "/UtkarshPortFolio/static/media/meter1.c4085ff859afbd8488e9da47d4953850.svg",
     "static/media/meter3.svg": "/UtkarshPortFolio/static/media/meter3.2201f7e4df22bc4b08180210474f28cc.svg",
     "index.html": "/UtkarshPortFolio/index.html",
-    "main.a12e8592.css.map": "/UtkarshPortFolio/static/css/main.a12e8592.css.map",
-    "main.aa555647.js.map": "/UtkarshPortFolio/static/js/main.aa555647.js.map",
+    "main.45a82699.css.map": "/UtkarshPortFolio/static/css/main.45a82699.css.map",
+    "main.d76368fd.js.map": "/UtkarshPortFolio/static/js/main.d76368fd.js.map",
     "787.128fc6e9.chunk.js.map": "/UtkarshPortFolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a12e8592.css",
-    "static/js/main.aa555647.js"
+    "static/css/main.45a82699.css",
+    "static/js/main.d76368fd.js"
   ]
 }
