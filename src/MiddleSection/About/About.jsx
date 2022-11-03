@@ -34,13 +34,13 @@ const About = () => {
       </Text>
       <Text fontSize="18px">
       Passionate Full-Stack web developer with
-hands on experience in developing scalabe
-websites using a wide range of front-end
-and back-end skills like HTML,CSS,React,
-JavaScript, Node js ,MongoDB etc. Eager
-to obtain a challenging position at a
-prestigious company that will expand my
-learning and built upon my developer skills.
+          hands on experience in developing scalabe
+          websites using a wide range of front-end
+          and back-end skills like HTML,CSS,React,
+          JavaScript, Node js ,MongoDB etc. Eager
+          to obtain a challenging position at a
+          prestigious company that will expand my
+          learning and built upon my developer skills.
       </Text>
       <div className="a-award">
         <img src={Award} alt="" className="a-award-img" />

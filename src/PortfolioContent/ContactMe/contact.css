@@ -137,9 +137,10 @@
         display: block;
         justify-content: center;
         align-items: center;
+        margin-top: 25px;
     }
     .main{
-        margin-top: -200px;
+        margin-top: 50px;
     }
     .inputBox{
         width: 70%;

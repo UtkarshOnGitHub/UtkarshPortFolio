@@ -5,6 +5,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import emailjs from '@emailjs/browser';
 import { useState } from "react";
+import { Text } from "@chakra-ui/react";
 
 const Contactme = () => {
   const [state,setState] = useState(false)
@@ -28,7 +29,7 @@ const Contactme = () => {
     <div className="main" data-aos="fade-up" id="contact">
       <div className="contact-parent">
         <div className="heading">
-          <h1>Contact ME</h1>
+          <Text fontSize={"30px"}>Contact ME</Text>
         </div>
         <div className="section">
             <div className="IMG" data-aos="fade-up">

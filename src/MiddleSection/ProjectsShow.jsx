@@ -1,42 +1,45 @@
 import { Box, SimpleGrid, Wrap } from "@chakra-ui/react";
 import SingleProject from "./SingleProject";
-// import asos from "../Assets/Home/asos.jpg"
+import asos from "../Assets/Home/asos.png"
+import modesens from "../Assets/Home/modesens.png"
+import everhour from "../Assets/Home/everhour.png"
+import travelocity from "../Assets/Home/travelocity.png"
 const projects = [
     {
-        hero: "https://images.saymedia-content.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cq_auto:eco%2Cw_1200/MTc4MzYxOTk0MzA1ODA3OTc2/stores-like-asos.png",
-        name: "Toggl Track Clone",
-        skills: ["HTML", "CSS", "JavaScript", "React", "Redux", "Chakra UI", "NodeJS", "ExpressJS", "MongoDB"],
-        about: 'Toggl Track is a time tracking app that allows you to track your daily activities across different platforms.',
-        status: 'A collaborative project built by a team of 5, executed in 4 days.',
-        github: 'https://github.com/Amanyadav2030/minor-crowd-1344',
-        live: 'https://toggl-time-tracking.vercel.app/',
+        hero: asos,
+        name: "Asos Clone",
+        skills: ["HTML", "CSS", "JavaScript", "React JS", "Chakra UI",],
+        about: 'ASOS plc is a British online fashion and cosmetic retailer. The company was founded in 2000 in London, primarily aimed at young adults.',
+        status: 'An Individual project, executed in 4 days.',
+        github: 'https://github.com/UtkarshOnGitHub/wretched-grass-6317',
+        live: 'https://asos-lake.vercel.app/',
     },
     {
-        hero: "https://amanyadav2030.github.io/amanyadav/static/media/togglImg.e31812cf369352f998c5.png",
-        name: "Bellavitaorganic Clone",
-        skills: ["React", "CSS", 'JavaScript', "Chakra UI"],
-        about: 'Bellavitaorganic which is an e-commerce website, where users can buy organic products.',
-        status: 'An individual project built by me, executed in 4 days.',
-        github: 'https://github.com/Amanyadav2030/Bellavitaorganic-Clone',
-        live: 'https://bellavitaorganic-clone.vercel.app/',
+        hero: everhour,
+        name: "Ever-Hour Clone",
+        skills: ["JavaScript", "React JS", "Redux", "Redux Thunk" ,"Chakra UI", "NodeJS", "ExpressJS", "MongoDB"],
+        about: 'Everhour is a time tracking software, which can be Integrated with many kinds of business tools.',
+        status: 'A collaborative project built by  team of 5, executed in 4 days.',
+        github: 'https://github.com/Madhukesh06/everhour.com-clone',
+        live: 'https://clone-everhour.netlify.app/',
     },
     {
-        hero: "https://amanyadav2030.github.io/amanyadav/static/media/togglImg.e31812cf369352f998c5.png",
-        name: "Airgarage Clone",
-        skills: ["HTML", "CSS", "JavaScript"],
-        about: 'Airgarage is a well-being startup, which offers available parking anywhere else in the world.',
-        status: 'A collaborative project built by a team of 5, executed in 4 days.',
-        github: 'https://github.com/Amanyadav2030/Airgarage-Clone',
-        live: 'https://airgarage-clone.vercel.app/',
+        hero: modesens,
+        name: "ModeSens Clone",
+        skills: ["HTML", "CSS", 'JavaScript'],
+        about: 'ModeSens is your fashion shopping assistant for the smart and informed. ModeSens is led by a team of industry experts',
+        status: 'A collaborative project built by team of 5, executed in 4 days.',
+        github: 'https://github.com/sadhakvishu/Slytherin',
+        live: 'https://sadhakvishu.github.io/Slytherin/',
     },
     {
-        hero: "https://amanyadav2030.github.io/amanyadav/static/media/togglImg.e31812cf369352f998c5.png",
-        name: "Toggl Track Clone2",
-        skills: ["HTML", "CSS", "JavaScript", "React", "Redux", "Chakra UI", "NodeJS", "ExpressJS", "MongoDB"],
-        about: 'Toggl Track is a time tracking app that allows you to track your daily activities across different platforms.',
+        hero: travelocity,
+        name: "Travelocity Clone",
+        skills: ["HTML", "CSS", "JavaScript", "JSON"],
+        about: 'Travelocity.com is an online travel agency owned by Expedia Group. It has 12.4 million monthly unique visitors, making it the third most popular website',
         status: 'A collaborative project built by a team of 5, executed in 4 days.',
-        github: 'https://github.com/Amanyadav2030/minor-crowd-1344',
-        live: 'https://toggl-time-tracking.vercel.app/',
+        github: 'https://github.com/UtkarshOnGitHub/ossified-paper-8820',
+        live: 'https://timely-zuccutto-a4829c.netlify.app/',
     },
 ];
 export default function ProjectsShow() {

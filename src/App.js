@@ -1,8 +1,6 @@
 // import { ChakraProvider } from '@chakra-ui/react';
 import './App.css';
 import MiddleSection from './MiddleSection/MiddleSection';
-import Portfolio from './MiddleSection/Myprojects/Portfolio';
-// import Skills from './MiddleSection/Skills/skills';
 import Contactme from './PortfolioContent/ContactMe/Contactme';
 import Home from './PortfolioContent/Home/Home';
 
@@ -20,7 +18,6 @@ function App() {
         <Home/>
         
         <MiddleSection/>
-        {/* <Portfolio/> */}
         <ProjectsShow/>
         <Github/>
         <Contactme/>

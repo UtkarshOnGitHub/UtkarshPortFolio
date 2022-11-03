@@ -1,21 +1,32 @@
-import React from 'react'
-import "./github.css";
+import React from "react";
+import GitHubCalendar from "react-github-calendar";
+// import "./GitHub.css";
+import { Box, Text } from "@chakra-ui/react";
 import AOS from 'aos';
-import 'aos/dist/aos.css'; 
-
-import github from "../Assets/Home/git2.png"
-
-const Github = () => {
+const GitHub = () => {
   AOS.init({ duration:2000})
+  const github = {
+    margin: "auto",
+    border: "5px solid #A3E900",
+    padding: "20px",
+    borderRadius: "10px",
+  };
   return (
-    <div className='main_git' data-aos="flip-down">
-      <div className='child'>
-            <img src={github} alt="" />
-      </div>
+    <div data-aos="zoom-in-down">
+      <Text mt="6%" textAlign={"center"} fontSize="4xl">DAYS I CODE</Text>
+      <Box
+        w={["80%", "80%", "65%"]}
+        style={github}
+        className="github_Calender"
+      >
+        <GitHubCalendar
+          style={{ margin: "auto" }}
+          username="UtkarshOnGitHub"
+          year={new Date().getFullYear()}
+        />
+      </Box>
     </div>
-  )
-}
-
-export default Github
-
+  );
+};
+export default GitHub;
 
