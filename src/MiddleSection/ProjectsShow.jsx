@@ -44,7 +44,7 @@ const projects = [
 ];
 export default function ProjectsShow() {
     return (
-        <SimpleGrid spacingX={['15px', '25px', '38px']} pb={['1rem', '2rem', '5rem']} spacingY={['18px', '27px', '30px']} columns={[1, 2, 3, 3]} w={['90%', '92%', '87%']} m='auto' marginTop={"100px"}>
+        <SimpleGrid spacingX={['15px', '25px', '38px']} pb={['1rem', '2rem', '5rem']} spacingY={['18px', '27px', '30px']} columns={[1, 2, 3, 3]} w={['90%', '92%', '87%']} m='auto' marginTop={"100px"} id="projects">
             {
                 projects.map((el) => (
                     <SingleProject key={el.name} hero={el.hero} name={el.name} skills={el.skills} status={el.status}  github={el.github} live={el.live} about={el.about} />

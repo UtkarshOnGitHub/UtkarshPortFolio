@@ -36,7 +36,9 @@
 .nav-icon h3{
     padding: 25px;
 }
-
+.toShowHamburger{
+  display: none;
+}
 .waviy {
     position: relative;
   }
@@ -68,9 +70,16 @@
   }
 }
 
+
 @media screen and (max-width:759px) {
   .nav-list{
     display: none;
+  }
+  .toShowHamburger{
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
 }

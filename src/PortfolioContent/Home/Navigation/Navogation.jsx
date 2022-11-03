@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 // import AppScroll from '../hr/HR'
 import "./Nav.css";
 import { HashLink as Link} from 'react-router-hash-link';
-import { useEffect } from 'react';
+import {GoThreeBars} from "react-icons/go"
 
 const Navigation = () => {
   const [navbar, setNavbar] = useState(false);
@@ -33,10 +33,13 @@ const Navigation = () => {
             <div className='nav-list'>
                 <li><Link smooth to="#about" scroll={(el) => el.scrollIntoView({ behavior: 'auto', block: 'end' })} >About</Link></li>
                 <li><Link smooth to="#skills" scroll={(el) => el.scrollIntoView({ behavior: 'auto', block: 'end' })}>Skills</Link></li>
-                <li><Link smooth to="#projects" scroll={(el) => el.scrollIntoView({ behavior: 'auto', block: 'end' })}>Projects</Link></li>
+                <li><Link smooth to="#projects" scroll={(el) => el.scrollIntoView({ behavior: 'auto' })}>Projects</Link></li>
                 <li><Link smooth to="#contact" scroll={(el) => el.scrollIntoView({ behavior: 'auto', block: 'end' })}>Contact</Link></li>
                 <li><a href="Utkarshfw19_Resume.pdf" download="Utkarsh_Resume">Resume</a></li>
             </div> 
+            <div className='toShowHamburger'>
+                <GoThreeBars color="white" fontSize={"35px"}/>
+            </div>
         </div>
     </div>
   )
