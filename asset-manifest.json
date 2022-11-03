@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/UtkarshPortFolio/static/css/main.bdfec67a.css",
-    "main.js": "/UtkarshPortFolio/static/js/main.e7b9bf71.js",
+    "main.css": "/UtkarshPortFolio/static/css/main.a12e8592.css",
+    "main.js": "/UtkarshPortFolio/static/js/main.53398824.js",
     "static/js/787.128fc6e9.chunk.js": "/UtkarshPortFolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/travelocity.png": "/UtkarshPortFolio/static/media/travelocity.e361117ff29fee99107a.png",
+    "static/media/modesens.png": "/UtkarshPortFolio/static/media/modesens.972b1ca88f30121991c8.png",
     "static/media/profilephoto.jpg": "/UtkarshPortFolio/static/media/profilephoto.3c02f5f1a9c832d05929.jpg",
-    "static/media/mode.jpg": "/UtkarshPortFolio/static/media/mode.eadb92502d968ba968c5.jpg",
+    "static/media/asos.png": "/UtkarshPortFolio/static/media/asos.4374b29d6ca639655479.png",
     "static/media/msg.png": "/UtkarshPortFolio/static/media/msg.cc44593a5dff56416da7.png",
     "static/media/aboutimg2.jpg": "/UtkarshPortFolio/static/media/aboutimg2.ea346f4d89df817d42c2.jpg",
     "static/media/Poppins-Thin.ttf": "/UtkarshPortFolio/static/media/Poppins-Thin.a61eaf4c2e4d44d6db6a.ttf",
     "static/media/Poppins-Light.ttf": "/UtkarshPortFolio/static/media/Poppins-Light.f41b63c0bb0963ace821.ttf",
-    "static/media/asos.jpg": "/UtkarshPortFolio/static/media/asos.bd460fada36f423177eb.jpg",
     "static/media/Poppins-Regular.ttf": "/UtkarshPortFolio/static/media/Poppins-Regular.8081832fc5cfbf634aa6.ttf",
     "static/media/Poppins-Medium.ttf": "/UtkarshPortFolio/static/media/Poppins-Medium.9e1bb626874ed49aa343.ttf",
     "static/media/Poppins-SemiBold.ttf": "/UtkarshPortFolio/static/media/Poppins-SemiBold.cce5625b56ec678e4202.ttf",
     "static/media/Poppins-Bold.ttf": "/UtkarshPortFolio/static/media/Poppins-Bold.404e299be26d78e66794.ttf",
     "static/media/Poppins-ExtraBold.ttf": "/UtkarshPortFolio/static/media/Poppins-ExtraBold.4ed78cd5d64af4efc3c7.ttf",
-    "static/media/trav.jpg": "/UtkarshPortFolio/static/media/trav.25d3d2a5278bdb869c30.jpg",
+    "static/media/everhour.png": "/UtkarshPortFolio/static/media/everhour.853843c2a3c6e918ac07.png",
     "static/media/comp.png": "/UtkarshPortFolio/static/media/comp.213ed759e68a26e060c9.png",
-    "static/media/git2.png": "/UtkarshPortFolio/static/media/git2.d691dd9c919636aa0927.png",
     "static/media/css.png": "/UtkarshPortFolio/static/media/css.5f2b9169c48263cf4760.png",
     "static/media/mon.png": "/UtkarshPortFolio/static/media/mon.7e5b739c354145fa00c5.png",
     "static/media/bg.jpg": "/UtkarshPortFolio/static/media/bg.d580cd375921d13ae60d.jpg",
@@ -33,12 +33,12 @@
     "static/media/meter1.svg": "/UtkarshPortFolio/static/media/meter1.c4085ff859afbd8488e9da47d4953850.svg",
     "static/media/meter3.svg": "/UtkarshPortFolio/static/media/meter3.2201f7e4df22bc4b08180210474f28cc.svg",
     "index.html": "/UtkarshPortFolio/index.html",
-    "main.bdfec67a.css.map": "/UtkarshPortFolio/static/css/main.bdfec67a.css.map",
-    "main.e7b9bf71.js.map": "/UtkarshPortFolio/static/js/main.e7b9bf71.js.map",
+    "main.a12e8592.css.map": "/UtkarshPortFolio/static/css/main.a12e8592.css.map",
+    "main.53398824.js.map": "/UtkarshPortFolio/static/js/main.53398824.js.map",
     "787.128fc6e9.chunk.js.map": "/UtkarshPortFolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bdfec67a.css",
-    "static/js/main.e7b9bf71.js"
+    "static/css/main.a12e8592.css",
+    "static/js/main.53398824.js"
   ]
 }
