@@ -17,7 +17,7 @@ const Navigation = () => {
   window.addEventListener("scroll",changeBg)
   return (
     <div className='nav-container'>
-        <div className={navbar?"navbar-parent scroll":"navbar-parent"} >
+        <div className={navbar?"navbar-parent scroll":"navbar-parent"}>
             <div className='nav-icon'>
             <div className="waviy">
                 <span classsName="--i:1" >U</span>

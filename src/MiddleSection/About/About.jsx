@@ -28,26 +28,32 @@ const About = () => {
       </div>
     </div>
     <div className="a-right">
-      <h1 className="a-title">About Me</h1>
-      <h2 className="a-sub">
-          Hello, I'M <span style={{backgroundColor:"yellow" , padding:"0px 10px"}}>UTKARSH</span> 
-      </h2>
-      <p className="a-desc">
-      I am a highly competent Full Stack Web Developer who is graduated from Masai School. I have strong technical skills as well as excellent interpersonal skills, enabling 
-me to interact  with a wide range of clients. I am eager to obtain a challenging position at a prestigious company that will expand my learning and build upon my developer skills.
-      </p>
+      <Text fontSize={"5xl"}>About Me</Text>
+      <Text fontStyle={"italic"} fontSize="22px" marginTop="20px" marginBottom={"10px"}>
+          Hello, I'M <span style={{backgroundColor:"yellow" , padding:"0px 10px" , borderRadius:"10px"}}>UTKARSH</span> 
+      </Text>
+      <Text fontSize="18px">
+      Passionate Full-Stack web developer with
+hands on experience in developing scalabe
+websites using a wide range of front-end
+and back-end skills like HTML,CSS,React,
+JavaScript, Node js ,MongoDB etc. Eager
+to obtain a challenging position at a
+prestigious company that will expand my
+learning and built upon my developer skills.
+      </Text>
       <div className="a-award">
         <img src={Award} alt="" className="a-award-img" />
         <div className="a-award-texts" data-aos="fade-left"
             data-aos-anchor="#example-anchor"
             data-aos-offset="500"
             data-aos-duration="800">
-          <h4 className="a-award-title">
+          <Text fontSize={"20px"} fontWeight={"600"} marginBottom={"10px"}>
           <Typical loop={Infinity} steps={["1000+ hours Of Coding",2000,"200+ DSA Question Solved",2000 , "3 Live Projects" , 2000 , "Team Work",2000]}/>
-          </h4>
-          <p className="a-award-desc">
+          </Text>
+          <Text fontSize={"18px"}>
           Knack Of Building application with front and backend operations.
-          </p>
+          </Text>
         </div>
       </div>
     </div>

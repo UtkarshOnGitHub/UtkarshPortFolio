@@ -12,6 +12,7 @@ import Mainfooter from './mainFooter/Mainfooter';
 import {BsFillArrowUpCircleFill} from 'react-icons/bs'
 import GoToTop from './GoToTop/GoToTop';
 import Github from './gitHub/Github';
+import ProjectsShow from './MiddleSection/ProjectsShow';
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
         <Home/>
         
         <MiddleSection/>
-        <Portfolio/>
+        {/* <Portfolio/> */}
+        <ProjectsShow/>
         <Github/>
         <Contactme/>
         <GoToTop/>
