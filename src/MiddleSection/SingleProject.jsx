@@ -1,6 +1,7 @@
-import { Box, Button, Center, Flex, Image, SimpleGrid, Text, WrapItem } from "@chakra-ui/react";
+import { Box, Button, Center, Flex, Image, SimpleGrid, Spacer, Text, WrapItem } from "@chakra-ui/react";
 import { FaGithub, FaEye, FaExternalLinkAlt } from "react-icons/fa";
 import AOS from 'aos';
+import styles from "./project.module.css"
 // import 'aos/dist/aos.css';
 // import './project.css '
 export default function SingleProject({ hero, name, skills, status, about, github, live, }) {
@@ -10,8 +11,9 @@ export default function SingleProject({ hero, name, skills, status, about, githu
     return (
         <Box data-aos="flip-left"
         data-aos-easing="ease-out-cubic"
-        data-aos-duration="2000" _hover={{
-            boxShadow: 'rgba(99, 99, 99, 0.2) 0px 3px 9px 0px'
+        data-aos-duration="2000" 
+        _hover={{
+            boxShadow: "rgba(3, 102, 214, 0.3) 0px 0px 0px 3px"
         }} style={
             isDark ? {
                 color: 'white',
@@ -38,39 +40,28 @@ export default function SingleProject({ hero, name, skills, status, about, githu
                             {status}
                         </Text>
                         <Text fontSize={['15px', '17px', '18px']} >
-                            <span style={{
-                                color: '#4070f4'
-                            }}>Tech Stack:</span>  {skills.join(" | ")}
+                            <Text as="mark">Tech Stack:</Text>  {skills.join(" | ")}
                         </Text>
                     </Box>
-                    <Flex mt={['10px']} gap={'13px'} mb='15px' letterSpacing='1px'>
-                        <Button style={{
+                    <Flex mt={['10px']}  mb='15px' letterSpacing='1px'>
+                        <Button className={styles.demo} style={{
                             background: "#FF5823",
                             color: 'white',
                             border: '1.3px solid #FF5823 ',
                         }}
-                            _hover={{
-                                background: "white !important",
-                                color: '#FF5823 !important',
-                                border: '1.3px solid #FF5823 !important'
-                            }}
                             border='1px solid #4070f4'
                             onClick={() => window.open(github, '_blank')}>
-                            Code <FaGithub />
+                            Code Base <FaGithub />
                         </Button>
-                        <Button style={{
+                        <Spacer/>
+                        <Button className={styles.demo} style={{
                             background: "#FF5823",
                             color: 'white',
                             border: '1.3px solid #FF5823 '
                         }}
-                            _hover={{
-                                background: "white !important",
-                                color: '#FF5823 !important',
-                                border: '1.3px solid #FF5823'
-                            }}
                             border='1px solid #4070f4'
                             onClick={() => window.open(live, '_blank')} >
-                            Demo <FaExternalLinkAlt style={{ width: "15px" }} />
+                            Live Preview <FaExternalLinkAlt style={{ width: "15px" }} />
                         </Button>
                     </Flex>
                 </Box>

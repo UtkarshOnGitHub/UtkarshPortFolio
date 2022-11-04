@@ -5,7 +5,6 @@
   z-index: 100;
   position:fixed ;
   color: black;
-  /* left: 86px; */
   background-image: url("../../../Assets/Home/bg.jpg");
 }
 .navbar-parent{
@@ -63,11 +62,11 @@
     width: 100%;
     justify-content: space-between;
     margin: auto;
-    padding: 0px 40px;
+    padding: 0.8rem 40px;
   }
-  .scroll{
+  /* .scroll{
     display: none;
-  }
+  } */
 }
 
 
@@ -80,6 +79,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .waviy span {
+    margin-top:0px;
   }
   
 }
