@@ -51,7 +51,7 @@ const Skills = () => {
                         <Text fontSize={"40px"} as="em">Technical Skills</Text>
                         <p><br></br> 
                         </p>
-                        <Carousel responsive={responsive} showDots={true} arrows={false} swipeable={true}
+                        <Carousel responsive={responsive} showDots={true} arrows={false} draggable={true}
                          autoPlay={true} autoPlaySpeed={1000}
                           infinite={true}
                            className="owl-carousel owl-theme skill-slider">

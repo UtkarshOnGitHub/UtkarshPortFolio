@@ -16,11 +16,22 @@
     width: 100%;
     border-radius: 30px;
 }
+.gitstat{
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+}
 
 
 
 @media screen and (max-width:500px){
     .child{
         display: none;
+    }
+    .gitstat{
+        flex-direction: column;
+    }
+    .gitstat img{
+        width: 100%;
     }
 }

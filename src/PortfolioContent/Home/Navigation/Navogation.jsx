@@ -73,18 +73,24 @@ const Navigation = () => {
         <DrawerOverlay />
         <DrawerContent>
           <DrawerCloseButton />
-          <DrawerHeader>{`drawer contents`}</DrawerHeader>
+          <DrawerHeader>
+          <div className="waviy2">
+                <span classsName="--i:1" >U</span>
+                <span>T</span>
+                <span>K</span>
+                <span>A</span>
+                <span>R</span>
+                <span>S</span>
+                <span>H</span>
+            </div>
+            </DrawerHeader>
           <DrawerBody>
-          <VStack>
-            <Box ><Link smooth to="#about" scroll={(el) => el.scrollIntoView({ behavior: 'auto', block: 'end' })} >About</Link></Box>
+          <VStack gap="10px" fontSize={"17px"} fontWeight={600}>
+            <Box><Link smooth to="#about" scroll={(el) => el.scrollIntoView({ behavior: 'auto', block: 'end' })} >About</Link></Box>
             <Box><Link smooth to="#skills" scroll={(el) => el.scrollIntoView({ behavior: 'auto', block: 'end' })}>Skills</Link></Box>
             <Box><Link smooth to="#projects" scroll={(el) => el.scrollIntoView({ behavior: 'auto' })}>Projects</Link></Box>
             <Box><Link smooth to="#contact" scroll={(el) => el.scrollIntoView({ behavior: 'auto', block: 'end' })}>Contact</Link></Box>
-            <Box><a href="Utkarshfw19_Resume.pdf" download="Utkarsh_Resume">Resume</a></Box>    
-               
-                
-                
-                
+            <Box><a href="Utkarshfw19_Resume.pdf" download="Utkarsh_Resume">Resume</a></Box>       
             </VStack> 
           </DrawerBody>
         </DrawerContent>
