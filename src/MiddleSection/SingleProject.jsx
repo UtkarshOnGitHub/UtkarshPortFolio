@@ -27,8 +27,8 @@ export default function SingleProject({ hero, name, skills, status, about, githu
                 flexDirection: 'column',
                 gap: '10px'
             }} >
-                <Box borderRadius="8px" overflow={'hidden'} borderBottom='0.5px solid '>
-                    <Image _hover={{ transform: 'scale(1.1)' }} style={{ transition: '.5s transform linear' }} borderRadius="8px" cursor={'pointer'} src={hero} alt={name} />
+                <Box borderRadius="8px" overflow={'hidden'} borderBottom='0.5px solid ' height="210px">
+                    <Image _hover={{ transform: 'scale(1.1)' }} style={{ transition: '.5s transform linear' }}  borderRadius="8px" cursor={'pointer'} src={hero} alt={name} />
                 </Box>
                 <Text fontSize={['1.5rem']} align={'center'}>{name}</Text>
                 <Box pl={'9px'} border='1px solid transparent' >
