@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/UtkarshPortFolio/static/css/main.044630aa.css",
+    "main.css": "/UtkarshPortFolio/static/css/main.93944e54.css",
     "main.js": "/UtkarshPortFolio/static/js/main.43202a66.js",
     "static/js/787.128fc6e9.chunk.js": "/UtkarshPortFolio/static/js/787.128fc6e9.chunk.js",
     "static/media/travelocity.png": "/UtkarshPortFolio/static/media/travelocity.e361117ff29fee99107a.png",
@@ -35,12 +35,12 @@
     "static/media/meter1.svg": "/UtkarshPortFolio/static/media/meter1.c4085ff859afbd8488e9da47d4953850.svg",
     "static/media/meter3.svg": "/UtkarshPortFolio/static/media/meter3.2201f7e4df22bc4b08180210474f28cc.svg",
     "index.html": "/UtkarshPortFolio/index.html",
-    "main.044630aa.css.map": "/UtkarshPortFolio/static/css/main.044630aa.css.map",
+    "main.93944e54.css.map": "/UtkarshPortFolio/static/css/main.93944e54.css.map",
     "main.43202a66.js.map": "/UtkarshPortFolio/static/js/main.43202a66.js.map",
     "787.128fc6e9.chunk.js.map": "/UtkarshPortFolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.044630aa.css",
+    "static/css/main.93944e54.css",
     "static/js/main.43202a66.js"
   ]
 }
