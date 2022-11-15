@@ -6,19 +6,32 @@ import 'aos/dist/aos.css';
 import emailjs from '@emailjs/browser';
 import { useState } from "react";
 import { Text } from "@chakra-ui/react";
+import { useToast } from '@chakra-ui/react'
+
 
 const Contactme = () => {
   const [state,setState] = useState(false)
+  const toast = useToast()
     const form = useRef();
 
     const sendEmail = (e) => {
       e.preventDefault();
-      emailjs.sendForm('service_obs93q9', 'template_8dxo6kd', form.current, "ynmRzGeiRQKPN2r1z")
+      emailjs.sendForm('service_1b2y9mc', 'template_8dxo6kd', form.current, "ynmRzGeiRQKPN2r1z")
         .then((result) => {
             console.log(result.text);
             setState(true)
+            toast({
+              title: `Email Sent Successfully`,
+              status: "success",
+              isClosable: true,
+            })
         }, (error) => {
             console.log(error.text);
+            toast({
+              title: `Email Not Sent!`,
+              status: "error",
+              isClosable: true,
+            })
         });
     };
 
