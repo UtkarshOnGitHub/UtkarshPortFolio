@@ -34,7 +34,7 @@ const About = () => {
       </Text>
       <Text fontSize="18px">
       Passionate Full-Stack web developer with
-          hands on experience in developing scalabe
+          hands on experience in developing scalable
           websites using a wide range of front-end
           and back-end skills like HTML,CSS,React,
           JavaScript, Node js ,MongoDB etc. Eager
