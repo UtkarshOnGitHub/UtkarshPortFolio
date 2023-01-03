@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/UtkarshPortFolio/static/css/main.93944e54.css",
-    "main.js": "/UtkarshPortFolio/static/js/main.2aa46eed.js",
+    "main.js": "/UtkarshPortFolio/static/js/main.bf26575a.js",
     "static/js/787.128fc6e9.chunk.js": "/UtkarshPortFolio/static/js/787.128fc6e9.chunk.js",
-    "static/media/travelocity.png": "/UtkarshPortFolio/static/media/travelocity.e361117ff29fee99107a.png",
     "static/media/modesens.png": "/UtkarshPortFolio/static/media/modesens.972b1ca88f30121991c8.png",
     "static/media/profilephoto.jpg": "/UtkarshPortFolio/static/media/profilephoto.3c02f5f1a9c832d05929.jpg",
     "static/media/asos.png": "/UtkarshPortFolio/static/media/asos.4374b29d6ca639655479.png",
+    "static/media/NOX.png": "/UtkarshPortFolio/static/media/NOX.6acbca0389ea298f2a8a.png",
     "static/media/msg.png": "/UtkarshPortFolio/static/media/msg.cc44593a5dff56416da7.png",
     "static/media/aboutimg2.jpg": "/UtkarshPortFolio/static/media/aboutimg2.ea346f4d89df817d42c2.jpg",
     "static/media/Poppins-Thin.ttf": "/UtkarshPortFolio/static/media/Poppins-Thin.a61eaf4c2e4d44d6db6a.ttf",
@@ -36,11 +36,11 @@
     "static/media/meter3.svg": "/UtkarshPortFolio/static/media/meter3.2201f7e4df22bc4b08180210474f28cc.svg",
     "index.html": "/UtkarshPortFolio/index.html",
     "main.93944e54.css.map": "/UtkarshPortFolio/static/css/main.93944e54.css.map",
-    "main.2aa46eed.js.map": "/UtkarshPortFolio/static/js/main.2aa46eed.js.map",
+    "main.bf26575a.js.map": "/UtkarshPortFolio/static/js/main.bf26575a.js.map",
     "787.128fc6e9.chunk.js.map": "/UtkarshPortFolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.93944e54.css",
-    "static/js/main.2aa46eed.js"
+    "static/js/main.bf26575a.js"
   ]
 }
