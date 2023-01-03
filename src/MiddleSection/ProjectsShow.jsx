@@ -3,7 +3,7 @@ import SingleProject from "./SingleProject";
 import asos from "../Assets/Home/asos.png"
 import modesens from "../Assets/Home/modesens.png"
 import everhour from "../Assets/Home/everhour.png"
-import travelocity from "../Assets/Home/travelocity.png"
+import travelocity from "../Assets/Home/NOX.png"
 const projects = [
     {
         hero: asos,
@@ -34,12 +34,12 @@ const projects = [
     },
     {
         hero: travelocity,
-        name: "Travelocity Clone",
-        skills: ["HTML", "CSS", "JavaScript", "JSON"],
-        about: 'Travelocity.com is an online travel agency owned by Expedia Group. It has 12.4 million monthly unique visitors, making it the third most popular website',
-        status: 'A collaborative project built by a team of 5, executed in 4 days.',
-        github: 'https://github.com/UtkarshOnGitHub/ossified-paper-8820',
-        live: 'https://timely-zuccutto-a4829c.netlify.app/',
+        name: "Nox Player",
+        skills: ["React", "CSS", "JavaScript"],
+        about: 'Nox Player Is A Online Music Player Where You Can Enjoy Music Produced By Noxious Beats',
+        status: 'A Solo project built executed in 1 day.',
+        github: 'https://github.com/UtkarshOnGitHub/NoxPlayer',
+        live: 'https://nox-player.vercel.app/',
     },
 ];
 export default function ProjectsShow() {
